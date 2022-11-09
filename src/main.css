@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom css */
+@layer utilities {
+  body {
+    @apply font-poppins bg-slate-100;
+  }
+  section {
+    @apply container mx-auto;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+}
