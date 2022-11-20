@@ -5,7 +5,7 @@
 /* custom css */
 @layer utilities {
   body {
-    @apply font-poppins bg-slate-100;
+    @apply font-roboto bg-slate-100;
   }
   section {
     @apply container mx-auto;
