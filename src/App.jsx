@@ -4,13 +4,17 @@ import { Sidebar } from "./components/Sidebar/Mobile";
 import { Toggle } from "./components/Toggle";
 import useWindowDimensions from "./components/useWindowDimensions";
 import { About } from "./sections/About";
+import { Contact } from "./sections/Contact";
 import { Home } from "./sections/Home";
+import { Project } from "./sections/Project";
 
 export const App = () => {
   const { width } = useWindowDimensions();
   const [toggle, setToggle] = useState(undefined);
-
-  console.log(width);
+  useEffect(() => {
+    width > 767 && setToggle(undefined);
+    console.log("render");
+  }, [width]);
   return (
     <>
       {width > 767 ? <Desktop /> : <Sidebar showSidebar={toggle} />}
@@ -18,6 +22,8 @@ export const App = () => {
         <Toggle showSidebar={setToggle} />
         <Home />
         <About />
+        <Project />
+        <Contact />
       </main>
     </>
   );

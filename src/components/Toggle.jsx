@@ -8,7 +8,7 @@ export const Toggle = ({ showSidebar }) => {
         className="text-2xl cursor-pointer"
         onClick={() => showSidebar((prev) => !prev)}
       />
-      <span className="text-[9px] absolute -bottom-3 left-0">MENU</span>
+      <span className="text-[8px] absolute -bottom-3 left-0">MENU</span>
     </div>
   );
 };
