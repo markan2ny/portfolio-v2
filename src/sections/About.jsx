@@ -5,7 +5,7 @@ import { Skill } from "../components/Skill";
 export const About = () => {
   return (
     <Section id={`about`}>
-      <h2 className="text-3xl md:text-5xl uppercase tracking-wider font-semibold text-teal-500 md:mb-10 mb-5 text-center md:text-left">
+      <h2 className="text-3xl font-black md:text-5xl tracking-wider text-teal-500 md:mb-10 mb-5 text-center md:text-left">
         About Me
       </h2>
       <div className="md:grid grid-cols-2 gap-20 mt-5 md:mt-10">
