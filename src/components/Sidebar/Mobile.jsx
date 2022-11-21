@@ -27,7 +27,7 @@ export const Sidebar = ({ showSidebar }) => {
               </a>
             </li>
             <li>
-              <a href="#work">
+              <a href="#project">
                 <Ai.AiOutlineExperiment className="text-white hover:text-slate-300 transition ease-in-out" />
               </a>
             </li>

@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <Section id="home" screen={`h-screen`}>
       <div className="flex items-center justify-center flex-col h-[100%] relative">
-        <h1 className="leading-[1.2] font-dancingScript text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-cyan-500 to-pink-500 bg-clip-text text-transparent">
+        <h1 className="leading-[1.2] md:leading-[1.5] font-dancingScript text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-cyan-500 to-pink-500 bg-clip-text text-transparent">
           Mark Anthony
         </h1>
         <span className="text-slate-600 text-xl md:text-2xl my-5">
@@ -21,8 +21,8 @@ export const Home = () => {
           />
         </span>
         <p className="md:max-w-md leading-[1.7] tracking-wide text-slate-500 text-center text-lg md:text-xl">
-          Graduated of Bachelor of Science in Information Technology 👨‍🎓. And I
-          design and code beautifully simple things, and I love what I do. 🥰
+          Graduated of Bachelor of Science in Information Technology. And I
+          design and code beautifully simple things, and I love what I do.
         </p>
         <Social />
 
