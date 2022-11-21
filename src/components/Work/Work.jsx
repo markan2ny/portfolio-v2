@@ -5,10 +5,10 @@ import { Card } from "../Card/Card";
 export const Work = () => {
   return (
     <Section id={`work`} css="h-screen md:justify-center">
-      <h2 className="text-2xl md:text-5xl text-center md:text-left uppercase tracking-wider font-semibold text-teal-500 mb-10">
+      <h2 className="text-3xl md:text-5xl text-center md:text-left uppercase tracking-wider font-semibold text-teal-500 mb-10">
         Portfolio
       </h2>
-      <p className="text-slate-400 text-sm md:text-xl font-light mb-10 md:max-w-[70%] text-center md:text-left leading-[1.7]">
+      <p className="text-slate-400 text-lg font-light mb-10 md:max-w-[70%] text-center md:text-left leading-[1.7]">
         Here you will find some of the personal and clients projects that I
         created on my previous and present work.
       </p>

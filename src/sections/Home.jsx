@@ -1,16 +1,15 @@
 import React from "react";
 import * as Fa from "react-icons/fa";
 import Typewriter from "typewriter-effect";
-import { Section } from "../Section";
-import { Scroll } from "./Scroll";
-import { Social } from "./Social";
-
+import { Social } from "../components/Social";
+import { Scroll } from "../components/Scroll";
+import { Section } from "../components/Section";
 export const Home = () => {
   return (
-    <Section id="home" css="h-screen">
+    <Section id="home">
       <div className="flex items-center justify-center flex-col h-[100%] relative">
-        <h1 className="font-dancingScript text-[28px] md:text-6xl font-bold text-black">
-          Mark Anthony Pascual
+        <h1 className="font-dancingScript text-5xl md:text-6xl font-bold text-black">
+          Mark Anthony
         </h1>
         <span className="text-slate-600 text-lg md:text-2xl my-5">
           <Typewriter
@@ -21,7 +20,7 @@ export const Home = () => {
             }}
           />
         </span>
-        <p className="md:max-w-md leading-[1.7] tracking-wide text-slate-500 font-light text-center text-sm md:text-lg">
+        <p className="md:max-w-md leading-[1.7] tracking-wide text-slate-500 font-light text-center text-lg md:text-xl">
           Graduated of Bachelor of Science in Information Technology. And I
           design and code beautifully simple things, and I love what I do.{" "}
         </p>

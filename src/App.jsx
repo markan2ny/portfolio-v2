@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { About } from "./components/About/About";
-import { Contact } from "./components/Contact/Contact";
-import { Home } from "./components/Home/Home";
 import { Desktop } from "./components/Sidebar/Desktop";
 import { Sidebar } from "./components/Sidebar/Mobile";
 import { Toggle } from "./components/Toggle";
 import useWindowDimensions from "./components/useWindowDimensions";
-import { Work } from "./components/Work/Work";
+import { About } from "./sections/About";
+import { Home } from "./sections/Home";
 
 export const App = () => {
   const { width } = useWindowDimensions();
@@ -20,8 +18,6 @@ export const App = () => {
         <Toggle showSidebar={setToggle} />
         <Home />
         <About />
-        <Work />
-        <Contact />
       </main>
     </>
   );
