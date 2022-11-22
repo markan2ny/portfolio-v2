@@ -5,7 +5,7 @@ module.exports = {
     fontFamily: {
       lato: ["Lato", "sans-serif"],
       dancingScript: ["Dancing Script", "sans-serif"],
-      squda: ["Squada One", "cursive"],
+      squada: ["Squada One", "cursive"],
     },
     extend: {
       keyframes: {

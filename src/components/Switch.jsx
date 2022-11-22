@@ -8,9 +8,9 @@ export const Switch = () => {
   return (
     <div
       onClick={() => setToggleDark((toggle) => !toggle)}
-      className="fixed top-2 right-4 w-[30px] h-[30px] bg-slate-200 p-1 rounded-full grid place-content-center shadow-lg cursor-pointer "
+      className="fixed top-2 right-3 w-[35px] h-[35px] bg-gradient-to-r from-cyan-400 to-pink-400 text-xl p-1 rounded-full grid place-content-center shadow-md cursor-pointer "
     >
-      {toggleDark && toggleDark ? "🌞" : "🌙"}
+      {toggleDark && toggleDark ? "🌞" : "🌛"}
     </div>
   );
 };
