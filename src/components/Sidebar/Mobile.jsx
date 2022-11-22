@@ -8,7 +8,7 @@ export const Sidebar = ({ showSidebar }) => {
         !showSidebar ? "left-[-110px] duration-500" : "left-0"
       }`}
     >
-      <div className="flex justify-between flex-col items-center w-full h-[70vh] md:h-[100vh] my-auto rounded-tr-xl rounded-br-xl shadow-xl md:shadow-sm md:rounded-none md:bg-white md:py-10 bg-gradient-to-br from-cyan-500 opacity-[0.7] to-pink-500">
+      <div className="flex justify-between flex-col items-center w-full h-[70vh] md:h-[100vh] my-auto rounded-tr-xl rounded-br-xl md:shadow-sm md:rounded-none md:bg-white md:py-10 bg-gradient-to-br from-cyan-500 opacity-[0.4] to-pink-500">
         <div className="pt-5 animate-pulse">
           <a href="#home" className="font-bold text-2xl text-white md:text-3xl">
             M

@@ -8,8 +8,8 @@ export const Home = () => {
   return (
     <Section id="home" screen={`h-screen`}>
       <div className="flex items-center justify-center flex-col h-[100%] relative">
-        <h1 className="leading-[1.2] md:leading-[1.5] font-dancingScript text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-cyan-500 to-pink-500 bg-clip-text text-transparent">
-          Mark Anthony
+        <h1 className="leading-[1.2] px-3 md:leading-[1.5] font-dancingScript text-3xl md:text-6xl font-extrabold bg-gradient-to-r from-cyan-500 to-pink-500 bg-clip-text text-transparent">
+          Mark Anthony Pascual
         </h1>
         <span className="text-slate-600 text-xl md:text-2xl my-5">
           <Typewriter
