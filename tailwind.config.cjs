@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       lato: ["Lato", "sans-serif"],
-      dancingScript: ["Dancing Script", "sans-serif"],
+      dancing: ["Dancing Script", "sans-serif"],
       squada: ["Squada One", "cursive"],
     },
     extend: {
