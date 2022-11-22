@@ -7,12 +7,12 @@ export const Desktop = () => {
       <div className="flex flex-col py-20 items-center w-full justify-between h-full">
         <a
           href="#home"
-          className="font-extrabold uppercase text-2xl bg-gradient-to-r from-cyan-500 to-pink-500 text-white p-2 rounded-full animate-spin"
+          className="font-extrabold uppercase text-2xl bg-gradient-to-r from-cyan-500 to-pink-500 text-white p-2 rounded-full"
         >
           <Ai.AiOutlineCode />
         </a>
         <nav className="flex w-full flex-col items-center">
-          <ul className="flex flex-col items-center text-4xl gap-y-10 text-slate-500">
+          <ul className="flex flex-col items-center text-3xl gap-y-10 text-slate-500">
             <li className="hover:text-cyan-500">
               <a href="#home">
                 <Ai.AiOutlineHome />

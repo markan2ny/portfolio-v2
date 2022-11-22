@@ -5,7 +5,7 @@ import { SectionTitle } from "../components/SectionTitle";
 export const Project = () => {
   return (
     <Section id={`project`} screen={`h-screen`}>
-      <div>
+      <div className="text-center">
         <SectionTitle title={`Projects`} />
       </div>
     </Section>
