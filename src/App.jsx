@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Desktop } from "./components/Sidebar/Desktop";
 import { Sidebar } from "./components/Sidebar/Mobile";
-import { Switch } from "./components/Switch";
+// import { Switch } from "./components/Switch";
 import { Toggle } from "./components/Toggle";
 import useWindowDimensions from "./components/useWindowDimensions";
 import { About } from "./sections/About";
@@ -19,7 +19,7 @@ export const App = () => {
     <>
       {width > 767 ? <Desktop /> : <Sidebar showSidebar={toggle} />}
       <main className="w-full md:w-[calc(_100%_-_110px)] ml-auto relative">
-        <Switch />
+        {/* <Switch /> */}
         <Toggle showSidebar={setToggle} />
         <Home />
         <About />
