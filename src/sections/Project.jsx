@@ -6,7 +6,7 @@ import * as Fa from "react-icons/fa";
 
 export const Project = () => {
   return (
-    <Section id={`project`} screen={`md:h-screen`}>
+    <Section id={`project`} screen={`xl:h-screen`}>
       <div>
         <SectionTitle title={`Projects`} />
         {/* Grid */}
@@ -24,7 +24,7 @@ export const Project = () => {
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
-              <h2 className="font-extrabold text-xl md:text-2xl tracking-wide font-squada text-slate-500">
+              <h2 className="font-extrabold text-2xl md:text-2xl tracking-wide font-squada text-slate-500">
                 Avenfashion Manufacturing Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
@@ -34,10 +34,10 @@ export const Project = () => {
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="#">
-                    <Fa.FaLink className="text-slate-500" />
+                    <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a>
                   <a href="#">
-                    <Fa.FaGithub className="text-slate-500" />
+                    <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
                   </a>
                 </div>
               </div>
@@ -47,6 +47,8 @@ export const Project = () => {
               </p>
             </div>
           </div>
+          {/* End Card */}
+          {/* Card */}
           <div className="rounded-md mb-5 shadow-lg overflow-hidden block md:w-[85%] md:mx-auto bg-gradient-to-br from-cyan-200 to-pink-200">
             {/* Image wrapper */}
             <div className="w-full p-1 xl:p-6">
@@ -59,7 +61,7 @@ export const Project = () => {
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
-              <h2 className="font-extrabold text-xl md:text-2xl tracking-wide font-squada text-slate-500">
+              <h2 className="font-extrabold text-2xl md:text-2xl tracking-wide font-squada text-slate-500">
                 Avenfashion Manufacturing Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
@@ -67,12 +69,12 @@ export const Project = () => {
                   <span className="text-orange-400">REACT</span>
                   <span className="text-blue-400">TAILWIND</span>
                 </div>
-                <div className="flex items-center  gap-x-1 text-lg">
+                <div className="flex items-center  gap-x-3 text-lg">
                   <a href="#">
-                    <Fa.FaLink className="text-slate-500" />
+                    <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a>
                   <a href="#">
-                    <Fa.FaGithub className="text-slate-500" />
+                    <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
                   </a>
                 </div>
               </div>
@@ -82,6 +84,8 @@ export const Project = () => {
               </p>
             </div>
           </div>
+          {/* End Card */}
+          {/* Card */}
           <div className="rounded-md mb-5 shadow-lg overflow-hidden block md:w-[85%] md:mx-auto bg-gradient-to-br from-cyan-200 to-pink-200">
             {/* Image wrapper */}
             <div className="w-full p-1 xl:p-6">
@@ -94,7 +98,7 @@ export const Project = () => {
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
-              <h2 className="font-extrabold text-xl md:text-2xl tracking-wide font-squada text-slate-500">
+              <h2 className="font-extrabold text-2xl md:text-2xl tracking-wide font-squada text-slate-500">
                 Avenfashion Manufacturing Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
@@ -104,10 +108,10 @@ export const Project = () => {
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="#">
-                    <Fa.FaLink className="text-slate-500" />
+                    <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a>
                   <a href="#">
-                    <Fa.FaGithub className="text-slate-500" />
+                    <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
                   </a>
                 </div>
               </div>
@@ -117,6 +121,17 @@ export const Project = () => {
               </p>
             </div>
           </div>
+          {/* End Card */}
+        </div>
+        {/* View All */}
+        <div className="text-center mt-10">
+          <a
+            href="https://github.com/markan2ny"
+            target="__blank"
+            className="inline-flex items-center gap-x-1 px-4 py-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-white rounded-3xl"
+          >
+            <Fa.FaEye /> View All
+          </a>
         </div>
       </div>
     </Section>

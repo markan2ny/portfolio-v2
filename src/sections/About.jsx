@@ -6,7 +6,7 @@ import { SectionTitle } from "../components/SectionTitle";
 
 export const About = () => {
   return (
-    <Section id={`about`}>
+    <Section id={`about`} screen={`xl:h-screen`}>
       <SectionTitle title={`About Me`} />
       <div className="md:grid grid-cols-2 gap-20 mt-5 md:mt-10">
         <div>

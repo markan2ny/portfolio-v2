@@ -16,7 +16,7 @@ export const Social = () => {
         target="__blank"
         className="hover:text-cyan-500 hover:scale-110"
       >
-        <Fa.FaGitSquare />
+        <Fa.FaGithub />
       </a>
       <a href="#" className="hover:text-cyan-500 hover:scale-110">
         <Fa.FaInstagramSquare />
