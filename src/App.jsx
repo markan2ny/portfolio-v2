@@ -13,7 +13,6 @@ export const App = () => {
   const [toggle, setToggle] = useState(undefined);
   useEffect(() => {
     width > 767 && setToggle(undefined);
-    console.log("render");
   }, [width]);
   return (
     <>
