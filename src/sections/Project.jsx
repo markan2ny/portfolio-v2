@@ -24,13 +24,13 @@ export const Project = () => {
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
-              <h2 className="font-extrabold text-2xl md:text-2xl tracking-wide font-squada text-slate-500">
-                Avenfashion Manufacturing Inc.
+              <h2 className="font-extrabold text-2xl md:text-3xl tracking-wide font-squada text-slate-500">
+                Human Resources Information System
               </h2>
               <div className="flex justify-between items-center my-2">
                 <div className="flex gap-x-3">
-                  <span className="text-orange-400">REACT</span>
-                  <span className="text-blue-400">TAILWIND</span>
+                  <span className="text-orange-400 font-bold">LARAVEL</span>
+                  <span className="text-blue-400 font-bold">MYSQL</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="#">
@@ -61,13 +61,13 @@ export const Project = () => {
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
-              <h2 className="font-extrabold text-2xl md:text-2xl tracking-wide font-squada text-slate-500">
+              <h2 className="font-extrabold text-2xl md:text-3xl tracking-wide font-squada text-slate-500">
                 Avenfashion Manufacturing Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
                 <div className="flex gap-x-3">
-                  <span className="text-orange-400">REACT</span>
-                  <span className="text-blue-400">TAILWIND</span>
+                  <span className="text-orange-400 font-bold">WORDPRESS</span>
+                  <span className="text-blue-400 font-bold">WEBSITE</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="#">
@@ -98,13 +98,13 @@ export const Project = () => {
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
-              <h2 className="font-extrabold text-2xl md:text-2xl tracking-wide font-squada text-slate-500">
+              <h2 className="font-extrabold text-2xl md:text-3xl tracking-wide font-squada text-slate-500">
                 Avenfashion Manufacturing Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
                 <div className="flex gap-x-3">
-                  <span className="text-orange-400">REACT</span>
-                  <span className="text-blue-400">TAILWIND</span>
+                  <span className="text-orange-400 font-bold">REACT</span>
+                  <span className="text-blue-400 font-bold">TAILWIND</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="#">
@@ -128,9 +128,9 @@ export const Project = () => {
           <a
             href="https://github.com/markan2ny"
             target="__blank"
-            className="inline-flex items-center gap-x-1 px-4 py-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-white rounded-3xl"
+            className="inline-flex items-center gap-x-1 px-4 py-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-white rounded-3xl xl:text-lg"
           >
-            <Fa.FaEye /> View All
+            <Fa.FaGithub className="text-xl" /> More Project
           </a>
         </div>
       </div>
