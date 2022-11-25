@@ -42,8 +42,8 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
-                recusandae a doloremque atque, aperiam doloribus.
+                A manageble system for human resources that store employee's
+                detail and monitoring employee's status.
               </p>
             </div>
           </div>
@@ -75,8 +75,9 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
-                recusandae a doloremque atque, aperiam doloribus.
+                A website allow the user to view the history of company and
+                products. And also help them to find a vacant job in Careers
+                Page.
               </p>
             </div>
           </div>
@@ -112,8 +113,8 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
-                recusandae a doloremque atque, aperiam doloribus.
+                Eliahu is a foundation website for scholars student. this
+                website is built to help the foundation to collect a donation.
               </p>
             </div>
           </div>

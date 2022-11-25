@@ -13,13 +13,13 @@ export const About = () => {
           <p className="leading-[1.7]">
             I'm a Frontend Web Developer building the Front-end of Websites and
             Web Applications that leads to the success of the overall product.
+            Where I can contribute, learn and grow.
           </p>
           <br />
 
           <p className="leading-[1.7]">
-            Where I can contribute, learn and grow. If you have a good
-            opportunity that matches my skills and experience then don't
-            hesitate to contact me.
+            If you have a good opportunity that matches my skills and experience
+            then don't hesitate to contact me.
           </p>
         </div>
 
