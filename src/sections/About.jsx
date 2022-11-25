@@ -11,15 +11,21 @@ export const About = () => {
       <div className="xl:grid grid-cols-2 gap-20 mt-5 xl:mt-10">
         <div className="xl:text-xl text-slate-700 xl:m-auto xl:pl-11">
           <p className="leading-[1.7]">
-            I'm a Frontend Web Developer building the Front-end of Websites and
-            Web Applications that leads to the success of the overall product.
-            Where I can contribute, learn and grow.
+            I'm a Frontend Web Developer focusing on{" "}
+            <span className="bg-gradient-to-tr bg-clip-text text-transparent from-cyan-500 to-pink-500">
+              Fullstack Development.
+            </span>
           </p>
           <br />
 
           <p className="leading-[1.7]">
-            If you have a good opportunity that matches my skills and experience
-            then don't hesitate to contact me.
+            I'm open to{" "}
+            <span className="bg-gradient-to-tr bg-clip-text text-transparent from-cyan-500 to-pink-500">
+              Job
+            </span>{" "}
+            opportunities where I can contribute, learn and grow. If you have a
+            good opportunity that matches my skills and experience then don't
+            hesitate to contact me.
           </p>
         </div>
 

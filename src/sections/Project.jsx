@@ -30,20 +30,28 @@ export const Project = () => {
               <div className="flex justify-between items-center my-2">
                 <div className="flex gap-x-3 uppercase">
                   <span className="text-orange-400 font-bold">LARAVEL</span>
-                  <span className="text-blue-400 font-bold">MYSQL</span>
+                  <span className="text-blue-400 font-bold">REACT</span>
+                  <span className="text-red-400 font-bold">API</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="#">
                     <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a>
-                  <a href="#">
+                  <a
+                    // href="#"
+                    onClick={() =>
+                      alert(
+                        "Sorry the project repo. is temporary not available."
+                      )
+                    }
+                  >
                     <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
                   </a>
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                A manageble system for human resources that store employee's
-                detail and monitoring employee's status.
+                I developed Human Resources Information System {"(HRIS)"} for
+                our HR to gave them an a accurate records of employees.
               </p>
             </div>
           </div>
@@ -63,13 +71,17 @@ export const Project = () => {
               <div className="flex justify-between items-center my-2">
                 <div className="flex gap-x-3 uppercase">
                   <span className="text-orange-400 font-bold">WORDPRESS</span>
-                  <span className="text-blue-400 font-bold">WEBSITE</span>
+                  <span className="text-purple-400 font-bold">WEBSITE</span>
+                  <span className="text-blue-400 font-bold">MYSQL</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="https://avenfashion.com" target="__blank">
                     <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a>
-                  <a href="#">
+                  <a
+                    href="https://github.com/markan2ny/aven-website"
+                    target="__blank"
+                  >
                     <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
                   </a>
                 </div>
@@ -99,20 +111,17 @@ export const Project = () => {
               </h2>
               <div className="flex justify-between items-center my-2">
                 <div className="flex gap-x-3 uppercase">
-                  <span className="text-orange-400 font-bold">Wordpress</span>
-                  <span className="text-blue-400 font-bold">Website</span>
+                  <span className="text-orange-400 font-bold">WORDPRESS</span>
+                  <span className="text-purple-400 font-bold">WEBSITE</span>
+                  <span className="text-blue-400 font-bold">MYSQL</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="https://ecfi.org.ph" target="__blank">
                     <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a>
                   <a
-                    href="#"
-                    onClick={() =>
-                      alert(
-                        "Sorry the developer decided to disable the repository of this project"
-                      )
-                    }
+                    href="https://github.com/markan2ny/wp-eliahu-theme"
+                    target="__blank"
                   >
                     <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
                   </a>

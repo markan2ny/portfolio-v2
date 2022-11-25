@@ -5,7 +5,7 @@ import { SectionTitle } from "../components/SectionTitle";
 
 export const Contact = () => {
   return (
-    <Section id="contact" screen={`h-screen`}>
+    <Section id="contact" screen={`xl:h-screen h-[70vh]`}>
       <div className="text-center">
         <SectionTitle title={`Get in touch`} />
         <h3 className="text-center text-lg md:text-xl font-normal text-slate-400 py-6 md:w-3/12 mx-auto">
