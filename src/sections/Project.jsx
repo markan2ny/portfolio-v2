@@ -2,6 +2,8 @@ import React from "react";
 import { Section } from "../components/Section";
 import { SectionTitle } from "../components/SectionTitle";
 import project1 from "../asset/project1.jpg";
+import image2 from '../asset/aven.jpg'
+import image3 from '../asset/ecfi.jpg'
 import * as Fa from "react-icons/fa";
 
 export const Project = () => {
@@ -14,7 +16,7 @@ export const Project = () => {
           {/* Card */}
           <div className="rounded-md mb-5 shadow-lg overflow-hidden block md:w-[85%] md:mx-auto bg-gradient-to-br from-cyan-200 to-pink-200">
             {/* Image wrapper */}
-            <div className="w-full p-1 xl:p-6">
+            <div className="w-full p-1 xl:p-0 ">
               <div>
                 <img
                   src={project1}
@@ -57,9 +59,9 @@ export const Project = () => {
           {/* Card */}
           <div className="rounded-md mb-5 shadow-lg overflow-hidden block md:w-[85%] md:mx-auto bg-gradient-to-br from-cyan-200 to-pink-200">
             {/* Image wrapper */}
-            <div className="w-full p-1 xl:p-6">
+            <div className="w-full p-1 xl:p-0">
               <div>
-                <img src={project1} className="hover:scale-105 transition" />
+                <img src={image2} className="hover:scale-105 transition" />
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
@@ -94,10 +96,10 @@ export const Project = () => {
           {/* Card */}
           <div className="rounded-md mb-5 shadow-lg overflow-hidden block md:w-[85%] md:mx-auto bg-gradient-to-br from-cyan-200 to-pink-200">
             {/* Image wrapper */}
-            <div className="w-full p-1 xl:p-6">
+            <div className="w-full p-1 xl:p-0">
               <div>
                 <img
-                  src={project1}
+                  src={image3}
                   alt=""
                   className="hover:scale-105 transition"
                 />
