@@ -75,9 +75,8 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                A website allow the user to view the history of company and
-                products. And also help them to find a vacant job in Careers
-                Page.
+                Aven Fashion is a garment manufacturing. this website is built
+                to help the company to post their activities and vacant jobs.
               </p>
             </div>
           </div>
@@ -107,7 +106,14 @@ export const Project = () => {
                   <a href="https://ecfi.org.ph" target="__blank">
                     <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a>
-                  <a href="#">
+                  <a
+                    href="#"
+                    onClick={() =>
+                      alert(
+                        "Sorry the developer decided to disable the repository of this project"
+                      )
+                    }
+                  >
                     <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
                   </a>
                 </div>
