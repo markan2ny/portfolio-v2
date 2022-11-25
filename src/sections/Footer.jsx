@@ -9,14 +9,17 @@ export const Footer = () => {
           Visit my{" "}
           <a
             href="https://pensive-kepler-9723c7.netlify.app/"
-            className="text-red-500"
+            className="hover:text-red-500"
             target="__blank"
           >
             old website
           </a>
         </p>
         <p>
-          Copyright &copy; <a href="#home">Mark Anthony</a>
+          Copyright &copy;{" "}
+          <a href="#home" className="hover:text-red-500">
+            Mark Anthony
+          </a>
         </p>
       </div>
     </Section>

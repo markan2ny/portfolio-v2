@@ -40,9 +40,7 @@ export const Project = () => {
                   <a
                     // href="#"
                     onClick={() =>
-                      alert(
-                        "Sorry the project repo. is temporary not available."
-                      )
+                      alert("Sorry repo not available at this moment")
                     }
                   >
                     <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
@@ -143,7 +141,7 @@ export const Project = () => {
             target="__blank"
             className="inline-flex font-light items-center gap-x-1 px-4 py-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-white rounded-3xl xl:text-lg hover:scale-105 transition"
           >
-            <Fa.FaGithub className="text-xl" /> More Project
+            <Fa.FaGithub className="text-xl" /> See Projects
           </a>
         </div>
       </div>
