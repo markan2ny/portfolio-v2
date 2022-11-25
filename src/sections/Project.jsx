@@ -50,8 +50,8 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                I developed Human Resources Information System {"(HRIS)"} for
-                our HR to gave them an a accurate records of employees.
+                A Web Application System can store employee's data. Give and
+                generate an accurate reports.
               </p>
             </div>
           </div>
@@ -128,8 +128,9 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                Eliahu is a foundation website for scholars student. this
-                website is built to help the foundation to collect a donation.
+                Eliahu is a foundation website for scholarship student of Aven
+                fashion Manufacturing Inc. {"(AFMI)"}. I developed this website
+                to help the foundation posting their activities.
               </p>
             </div>
           </div>

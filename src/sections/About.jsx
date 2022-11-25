@@ -11,9 +11,9 @@ export const About = () => {
       <div className="xl:grid grid-cols-2 gap-20 mt-5 xl:mt-10">
         <div className="xl:text-xl text-slate-700 xl:m-auto xl:pl-11">
           <p className="leading-[1.7]">
-            I'm a Frontend Web Developer focusing on{" "}
+            I'm a Frontend Web Developer{" "}
             <span className="bg-gradient-to-tr bg-clip-text text-transparent from-cyan-500 to-pink-500 ">
-              Fullstack Development.
+              focusing on Fullstack Development.
             </span>
           </p>
           <br />

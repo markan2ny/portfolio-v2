@@ -13,7 +13,7 @@ export const Contact = () => {
         </h3>
         <a
           href="mailto:markan2nypascual@gmail.com"
-          className="px-4 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-pink-500 text-white mx-auto"
+          className="px-4 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-pink-500 text-white mx-auto xl:hover:scale-110 transition"
         >
           Say Hello 👋
         </a>
