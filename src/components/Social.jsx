@@ -18,10 +18,10 @@ export const Social = () => {
       >
         <Fa.FaGithub />
       </a>
-      <a href="#" className="hover:text-cyan-500 hover:scale-110">
-        <Fa.FaInstagramSquare />
-      </a>
-      <a href="#" className="hover:text-cyan-500 hover:scale-110">
+
+      <a href="https://www.linkedin.com/in/mark-anthony-pascual-b83a58192/"
+        target="__blank"
+        className="hover:text-cyan-500 hover:scale-110">
         <Fa.FaLinkedin />
       </a>
     </div>

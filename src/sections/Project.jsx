@@ -30,8 +30,8 @@ export const Project = () => {
                 Human Resources Information System
               </h2>
               <div className="flex justify-between items-center my-2">
-                <div className="flex gap-x-3 uppercase">
-                  <span className="text-orange-400 font-bold">LARAVEL</span>
+                <div className="text-sm xl:text-md flex gap-x-3 uppercase">
+                  <span className="text-orange-400 font-bold">Laravel</span>
                   <span className="text-blue-400 font-bold">REACT</span>
                   <span className="text-red-400 font-bold">API</span>
                 </div>
@@ -69,7 +69,7 @@ export const Project = () => {
                 Avenfashion Manufacturing Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
-                <div className="flex gap-x-3 uppercase">
+                <div className="text-sm xl:text-md flex gap-x-3 uppercase">
                   <span className="text-orange-400 font-bold">WORDPRESS</span>
                   <span className="text-purple-400 font-bold">WEBSITE</span>
                   <span className="text-blue-400 font-bold">MYSQL</span>
@@ -110,7 +110,7 @@ export const Project = () => {
                 Eliahu Cedars Foundation Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
-                <div className="flex gap-x-3 uppercase">
+                <div className="text-sm xl:text-md flex gap-x-3 uppercase">
                   <span className="text-orange-400 font-bold">WORDPRESS</span>
                   <span className="text-purple-400 font-bold">WEBSITE</span>
                   <span className="text-blue-400 font-bold">MYSQL</span>
