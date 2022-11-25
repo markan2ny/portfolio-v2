@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import { Social } from "../components/Social";
 import { Scroll } from "../components/Scroll";
 import { Section } from "../components/Section";
+import resume from "../asset/Mark Anthony Pascual.pdf";
 export const Home = () => {
   return (
     <Section id="home" screen={`h-screen`}>
@@ -27,7 +28,8 @@ export const Home = () => {
         <Social />
 
         <a
-          href="#"
+          href={resume && resume}
+          download
           className="text-center px-4 py-2 bg-gradient-to-r from-cyan-500 to-pink-500 text-white rounded-2xl text-md md:text-lg font-light hover:scale-110 transition flex items-center gap-x-2"
         >
           <Fa.FaFileDownload />

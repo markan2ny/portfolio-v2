@@ -6,6 +6,7 @@ import { Toggle } from "./components/Toggle";
 import useWindowDimensions from "./components/useWindowDimensions";
 import { About } from "./sections/About";
 import { Contact } from "./sections/Contact";
+import { Footer } from "./sections/Footer";
 import { Home } from "./sections/Home";
 import { Project } from "./sections/Project";
 
@@ -25,6 +26,7 @@ export const App = () => {
         <About />
         <Project />
         <Contact />
+        <Footer />
       </main>
     </>
   );
