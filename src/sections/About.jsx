@@ -8,23 +8,23 @@ export const About = () => {
   return (
     <Section id={`about`} screen={`xl:h-screen`}>
       <SectionTitle title={`About Me`} />
-      <div className="md:grid grid-cols-2 gap-20 mt-5 md:mt-10">
-        <div>
-          <p className="text-slate-700 text-justify tracking-wider font-medium text-[18px]">
+      <div className="xl:grid grid-cols-2 gap-20 mt-5 xl:mt-10">
+        <div className="xl:text-xl text-slate-700 xl:m-auto xl:pl-11">
+          <p className="leading-[1.7]">
             I'm a Frontend Web Developer building the Front-end of Websites and
             Web Applications that leads to the success of the overall product.
           </p>
           <br />
 
-          <p className="text-slate-700 text-justify text-[18px] tracking-wider font-normal ">
-            span where I can contribute, learn and grow. If you have a good
+          <p className="leading-[1.7]">
+            Where I can contribute, learn and grow. If you have a good
             opportunity that matches my skills and experience then don't
             hesitate to contact me.
           </p>
         </div>
 
-        <div className="mt-10 md:mt-0">
-          <h2 className="text-lg md:text-xl text-slate-400 text-left font-bold mb-5">
+        <div className="mt-10 xl:mt-0 xl:pr-11">
+          <h2 className="text-lg xl:text-xl text-slate-400 text-left font-bold mb-5">
             Here's my tech skill's:
           </h2>
           <div className="flex flex-wrap gap-3 ">

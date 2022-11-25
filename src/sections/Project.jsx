@@ -28,7 +28,7 @@ export const Project = () => {
                 Human Resources Information System
               </h2>
               <div className="flex justify-between items-center my-2">
-                <div className="flex gap-x-3">
+                <div className="flex gap-x-3 uppercase">
                   <span className="text-orange-400 font-bold">LARAVEL</span>
                   <span className="text-blue-400 font-bold">MYSQL</span>
                 </div>
@@ -53,11 +53,7 @@ export const Project = () => {
             {/* Image wrapper */}
             <div className="w-full p-1 xl:p-6">
               <div>
-                <img
-                  src={project1}
-                  alt=""
-                  className="hover:scale-105 transition"
-                />
+                <img src={project1} className="hover:scale-105 transition" />
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
@@ -65,12 +61,12 @@ export const Project = () => {
                 Avenfashion Manufacturing Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
-                <div className="flex gap-x-3">
+                <div className="flex gap-x-3 uppercase">
                   <span className="text-orange-400 font-bold">WORDPRESS</span>
                   <span className="text-blue-400 font-bold">WEBSITE</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
-                  <a href="#">
+                  <a href="https://avenfashion.com" target="__blank">
                     <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a>
                   <a href="#">
@@ -99,15 +95,15 @@ export const Project = () => {
             </div>
             <div className="px-3 xl:px-6 py-3">
               <h2 className="font-extrabold text-2xl md:text-3xl tracking-wide font-squada text-slate-500">
-                Avenfashion Manufacturing Inc.
+                Eliahu Cedars Foundation Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
-                <div className="flex gap-x-3">
-                  <span className="text-orange-400 font-bold">REACT</span>
-                  <span className="text-blue-400 font-bold">TAILWIND</span>
+                <div className="flex gap-x-3 uppercase">
+                  <span className="text-orange-400 font-bold">Wordpress</span>
+                  <span className="text-blue-400 font-bold">Website</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
-                  <a href="#">
+                  <a href="https://ecfi.org.ph" target="__blank">
                     <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a>
                   <a href="#">
@@ -128,7 +124,7 @@ export const Project = () => {
           <a
             href="https://github.com/markan2ny"
             target="__blank"
-            className="inline-flex items-center gap-x-1 px-4 py-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-white rounded-3xl xl:text-lg"
+            className="inline-flex font-light items-center gap-x-1 px-4 py-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-white rounded-3xl xl:text-lg hover:scale-105 transition"
           >
             <Fa.FaGithub className="text-xl" /> More Project
           </a>
