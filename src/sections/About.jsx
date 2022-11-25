@@ -12,7 +12,7 @@ export const About = () => {
         <div className="xl:text-xl text-slate-700 xl:m-auto xl:pl-11">
           <p className="leading-[1.7]">
             I'm a Frontend Web Developer focusing on{" "}
-            <span className="bg-gradient-to-tr bg-clip-text text-transparent from-cyan-500 to-pink-500">
+            <span className="bg-gradient-to-tr bg-clip-text text-transparent from-cyan-500 to-pink-500 ">
               Fullstack Development.
             </span>
           </p>
