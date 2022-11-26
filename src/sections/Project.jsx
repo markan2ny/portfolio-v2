@@ -1,7 +1,8 @@
 import React from "react";
 import { Section } from "../components/Section";
 import { SectionTitle } from "../components/SectionTitle";
-import project1 from "../asset/project1.jpg";
+import image from "../asset/project1.jpg";
+import image1 from '../asset/hris.jpg';
 import image2 from '../asset/aven.jpg'
 import image3 from '../asset/ecfi.jpg'
 import * as Fa from "react-icons/fa";
@@ -19,8 +20,7 @@ export const Project = () => {
             <div className="w-full p-1 xl:p-0 ">
               <div>
                 <img
-                  src={project1}
-                  alt=""
+                  src={image1}
                   className="hover:scale-105 transition"
                 />
               </div>
@@ -32,8 +32,10 @@ export const Project = () => {
               <div className="flex justify-between items-center my-2">
                 <div className="text-sm xl:text-md flex gap-x-2 uppercase">
                   <span className="text-orange-400 font-bold">Laravel</span>
-                  <span className="text-blue-400 font-bold">REACT</span>
-                  <span className="text-red-400 font-bold">rest api</span>
+                  <span className="text-green-500 font-bold">VUE</span>
+                  <span className="text-red-400 font-bold">api</span>
+                  <span className="text-blue-400 font-bold">MYSQL</span>
+
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   {/* <a href="#">
@@ -42,7 +44,7 @@ export const Project = () => {
                   <a
                     // href="#"
                     onClick={() =>
-                      alert("")
+                      alert("Sorry, This project repo is private.")
                     }
                   >
                     <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
@@ -50,8 +52,7 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                A Web Application System can store employee's data. Give and
-                generate an accurate reports.
+              A human resources information system {"(HRIS)"} is a web application that maintains, manages, and processes detailed employee information and human resources-related policies and procedures.
               </p>
             </div>
           </div>
@@ -87,8 +88,7 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                Aven Fashion is a garment manufacturing. this website is built
-                to help the company to post their activities and vacant jobs.
+                A CMS website. I built this website to help the management for their job posting, news, activities and provides a company background.
               </p>
             </div>
           </div>
@@ -128,9 +128,8 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                Eliahu is a foundation website for scholarship student of Aven
-                fashion Manufacturing Inc. {"(AFMI)"}. I developed this website
-                to help the foundation posting their activities.
+                Eliahu is a foundation website for scholarship student. I developed this website,
+                to help the foundation for their posting activities.
               </p>
             </div>
           </div>
