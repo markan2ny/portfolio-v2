@@ -44,7 +44,7 @@ export const Project = () => {
                   <a
                     // href="#"
                     onClick={() =>
-                      alert("Sorry, This project repo is private.")
+                      alert("Sorry, private repositories")
                     }
                   >
                     <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
