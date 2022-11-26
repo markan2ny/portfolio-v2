@@ -16,9 +16,9 @@ export const Footer = () => {
           </a>
         </p>
         <p>
-          Copyright &copy;{" "}
+          Made with 💖 by{" "}
           <a href="#home" className="hover:text-red-500">
-            Mark Anthony
+            Mark
           </a>
         </p>
       </div>
