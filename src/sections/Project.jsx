@@ -52,7 +52,7 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-              A human resources information system {"(HRIS)"} is a web application that maintains, manages, and processes detailed employee information and human resources-related policies and procedures.
+                A human resources information system {"(HRIS)"} is a web application that maintains, manages, and processes detailed employee information and human resources-related policies and procedures.
               </p>
             </div>
           </div>
@@ -140,9 +140,9 @@ export const Project = () => {
           <a
             href="https://github.com/markan2ny"
             target="__blank"
-            className="inline-flex font-light items-center gap-x-1 px-4 py-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-white rounded-3xl xl:text-lg hover:scale-105 transition"
+            className="inline-flex font-light items-center gap-x-1 px-6 py-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-white rounded-3xl xl:text-lg hover:scale-105 transition"
           >
-            <Fa.FaGithub className="text-xl" /> See Projects
+            <Fa.FaGithub className="text-xl" /> See More
           </a>
         </div>
       </div>

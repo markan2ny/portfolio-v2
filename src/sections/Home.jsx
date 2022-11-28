@@ -12,18 +12,18 @@ export const Home = () => {
         <h1 className="leading-[1.2] px-3 md:leading-[1.5] font-dancing text-3xl md:text-6xl font-extrabold bg-gradient-to-r from-cyan-500 to-pink-500 bg-clip-text text-transparent">
           Mark Anthony Pascual
         </h1>
-        <span className="text-slate-600 text-xl md:text-2xl my-5">
+        <span className="font-squada text-slate-400 opacity-[.7] text-xl xl:text-3xl my-5">
           <Typewriter
             options={{
               loop: true,
               autoStart: true,
-              strings: ["Web Developer", "Front End Developer"],
+              strings: ["Web Developer", "Fullstack Developer"],
             }}
           />
         </span>
         <p className="md:max-w-md leading-[1.7] tracking-wide text-slate-500 text-center text-lg md:text-xl">
-          Graduated of Bachelor of Science in Information Technology. And I
-          design and code beautifully simple things, and I love what I do.
+          Graduated of Bachelor of Science in Information Technology. I
+          design and code beautifully simple things.
         </p>
         <Social />
 

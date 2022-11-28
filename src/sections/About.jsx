@@ -23,7 +23,10 @@ export const About = () => {
             <span className="bg-gradient-to-tr bg-clip-text text-transparent from-cyan-500 to-pink-500">
               Job
             </span>{" "}
-            opportunities where I can contribute, learn and grow. If you have a
+            opportunities where I can contribute my skill and knowlegde in web development.
+          </p>
+          <p>
+            If you have a
             good opportunity that matches my skills and experience then don't
             hesitate to contact me.
           </p>
