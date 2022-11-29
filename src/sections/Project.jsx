@@ -2,10 +2,11 @@ import React from "react";
 import { Section } from "../components/Section";
 import { SectionTitle } from "../components/SectionTitle";
 import image from "../asset/project1.jpg";
-import image1 from '../asset/hris.jpg';
-import image2 from '../asset/aven.jpg'
-import image3 from '../asset/ecfi.jpg'
+import image1 from "../asset/hris.jpg";
+import image2 from "../asset/aven.jpg";
+import image3 from "../asset/ecfi.jpg";
 import * as Fa from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export const Project = () => {
   return (
@@ -19,10 +20,7 @@ export const Project = () => {
             {/* Image wrapper */}
             <div className="w-full p-1 xl:p-0 ">
               <div>
-                <img
-                  src={image1}
-                  className="hover:scale-105 transition"
-                />
+                <img src={image1} className="hover:scale-105 transition" />
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
@@ -35,7 +33,6 @@ export const Project = () => {
                   <span className="text-green-500 font-bold">VUE</span>
                   <span className="text-red-400 font-bold">api</span>
                   <span className="text-blue-400 font-bold">MYSQL</span>
-
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   {/* <a href="#">
@@ -43,16 +40,17 @@ export const Project = () => {
                   </a> */}
                   <a
                     // href="#"
-                    onClick={() =>
-                      alert("Sorry, private repositories")
-                    }
+                    onClick={() => alert("Sorry, private repositories")}
                   >
                     <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
                   </a>
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                A human resources information system {"(HRIS)"} is a web application that maintains, manages, and processes detailed employee information and human resources-related policies and procedures.
+                A human resources information system {"(HRIS)"} is a web
+                application that maintains, manages, and processes detailed
+                employee information and human resources-related policies and
+                procedures.
               </p>
             </div>
           </div>
@@ -88,7 +86,9 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                A CMS website. I built this website to help the management for their job posting, news, activities and provides a company background.
+                A CMS website. I built this website to help the management for
+                their job posting, news, activities and provides a company
+                background.
               </p>
             </div>
           </div>
@@ -128,8 +128,9 @@ export const Project = () => {
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
-                Eliahu is a foundation website for scholarship student. I developed this website,
-                to help the foundation for their posting activities.
+                Eliahu is a foundation website for scholarship student. I
+                developed this website, to help the foundation for their posting
+                activities.
               </p>
             </div>
           </div>
@@ -137,13 +138,15 @@ export const Project = () => {
         </div>
         {/* View All */}
         <div className="text-center mt-10">
-          <a
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
             href="https://github.com/markan2ny"
             target="__blank"
-            className="inline-flex font-light items-center gap-x-1 px-6 py-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-white rounded-3xl xl:text-lg hover:scale-105 transition"
+            className="inline-flex font-light items-center gap-x-1 px-6 py-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-white rounded-3xl xl:text-lg"
           >
             <Fa.FaGithub className="text-xl" /> See More
-          </a>
+          </motion.a>
         </div>
       </div>
     </Section>

@@ -5,6 +5,9 @@ import { Social } from "../components/Social";
 import { Scroll } from "../components/Scroll";
 import { Section } from "../components/Section";
 import resume from "../asset/Mark Anthony Pascual.pdf";
+
+import { motion } from "framer-motion";
+
 export const Home = () => {
   return (
     <Section id="home" screen={`h-screen`}>
@@ -22,18 +25,21 @@ export const Home = () => {
           />
         </span>
         <p className="md:max-w-md leading-[1.7] tracking-wide text-slate-500 text-center text-lg md:text-xl">
-          Graduated of Bachelor of Science in Information Technology. I
-          design and code beautifully.</p>
+          Graduated of Bachelor of Science in Information Technology. I design
+          and code beautifully.
+        </p>
         <Social />
 
-        <a
+        <motion.a
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
           href={resume && resume}
           download
-          className="text-center px-4 py-2 bg-gradient-to-r from-cyan-500 to-pink-500 text-white rounded-2xl text-md md:text-lg font-light hover:scale-110 transition flex items-center gap-x-2"
+          className="text-center px-4 py-2 bg-gradient-to-r from-cyan-500 to-pink-500 text-white rounded-2xl text-md font-light flex items-center gap-x-2"
         >
           <Fa.FaFileDownload />
           Download CV
-        </a>
+        </motion.a>
 
         <Scroll />
       </div>
