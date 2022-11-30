@@ -25,8 +25,8 @@ export const Home = () => {
           />
         </span>
         <p className="md:max-w-md leading-[1.7] tracking-wide text-slate-500 text-center text-lg md:text-xl">
-          Graduated of Bachelor of Science in Information Technology. I design
-          and code beautifully.
+          Graduated of BS in Information Technology. I code
+          and design beautifully.
         </p>
         <Social />
 

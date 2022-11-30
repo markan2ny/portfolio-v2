@@ -88,7 +88,7 @@ export const Project = () => {
               <p className="py-3 text-md text-slate-500">
                 A CMS website. I built this website to help the management for
                 their job posting, news, activities and provides a company
-                background.
+                information.
               </p>
             </div>
           </div>
