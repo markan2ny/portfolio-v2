@@ -12,7 +12,7 @@ export const Project = () => {
   return (
     <Section id={`project`} screen={`xl:h-screen`}>
       <div>
-        <SectionTitle title={`Projects`} />
+        <SectionTitle title={`Recent Project's`} />
         {/* Grid */}
         <div className="grid md:grid-cols-2 gap-4 xl:grid-cols-3 xl:gap-x-4">
           {/* Card */}
@@ -38,12 +38,12 @@ export const Project = () => {
                   {/* <a href="#">
                     <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a> */}
-                  <a
+                  {/* <a
                     // href="#"
                     onClick={() => alert("Sorry, private repositories")}
                   >
                     <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <p className="py-3 text-md text-slate-500">
