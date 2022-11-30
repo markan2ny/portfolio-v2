@@ -9,7 +9,7 @@ export const Footer = () => {
           Visit my{" "}
           <a
             href="https://pensive-kepler-9723c7.netlify.app/"
-            className="hover:text-red-500"
+            className="hover:text-pink-500"
             target="__blank"
           >
             old website
@@ -17,7 +17,7 @@ export const Footer = () => {
         </p>
         <p>
           Made with 💖 by{" "}
-          <a href="#home" className="hover:text-red-500">
+          <a href="#home" className="hover:text-pink-500">
             Mark
           </a>
         </p>
