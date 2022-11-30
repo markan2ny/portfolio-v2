@@ -71,7 +71,6 @@ export const Project = () => {
                 <div className="text-sm xl:text-md flex gap-x-2 uppercase">
                   <span className="text-orange-400 font-bold">WORDPRESS</span>
                   <span className="text-purple-400 font-bold">WEBSITE</span>
-                  <span className="text-blue-400 font-bold">MYSQL</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="https://avenfashion.com" target="__blank">
@@ -113,7 +112,6 @@ export const Project = () => {
                 <div className="text-sm xl:text-md flex gap-x-2 uppercase">
                   <span className="text-orange-400 font-bold">WORDPRESS</span>
                   <span className="text-purple-400 font-bold">WEBSITE</span>
-                  <span className="text-blue-400 font-bold">MYSQL</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="https://ecfi.org.ph" target="__blank">
