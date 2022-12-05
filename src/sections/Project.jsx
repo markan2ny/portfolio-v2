@@ -12,7 +12,7 @@ export const Project = () => {
   return (
     <Section id={`project`} screen={`xl:h-screen`}>
       <div>
-        <SectionTitle title={`Projects`} />
+        <SectionTitle title={`Recent Project's`} />
         {/* Grid */}
         <div className="grid md:grid-cols-2 gap-4 xl:grid-cols-3 xl:gap-x-4">
           {/* Card */}
@@ -24,7 +24,7 @@ export const Project = () => {
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
-              <h2 className="font-extrabold text-2xl md:text-3xl tracking-wide font-squada text-slate-500">
+              <h2 className="font-extrabold text-2xl xl:text-3xl tracking-wide font-squada text-slate-500">
                 Human Resources Information System
               </h2>
               <div className="flex justify-between items-center my-2">
@@ -38,15 +38,15 @@ export const Project = () => {
                   {/* <a href="#">
                     <Fa.FaExternalLinkAlt className="text-slate-500 hover:text-cyan-500" />
                   </a> */}
-                  <a
+                  {/* <a
                     // href="#"
                     onClick={() => alert("Sorry, private repositories")}
                   >
                     <Fa.FaGithub className="text-slate-500 hover:text-cyan-500" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
-              <p className="py-3 text-md text-slate-500">
+              <p className="py-3 text-md text-slate-500 xl:text-xl">
                 A human resources information system {"(HRIS)"} is a web
                 application that maintains, manages, and processes detailed
                 employee information and human resources-related policies and
@@ -64,14 +64,13 @@ export const Project = () => {
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
-              <h2 className="font-extrabold text-2xl md:text-3xl tracking-wide font-squada text-slate-500">
+              <h2 className="font-extrabold text-2xl xl:text-3xl tracking-wide font-squada text-slate-500">
                 Avenfashion Manufacturing Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
                 <div className="text-sm xl:text-md flex gap-x-2 uppercase">
                   <span className="text-orange-400 font-bold">WORDPRESS</span>
                   <span className="text-purple-400 font-bold">WEBSITE</span>
-                  <span className="text-blue-400 font-bold">MYSQL</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="https://avenfashion.com" target="__blank">
@@ -85,10 +84,10 @@ export const Project = () => {
                   </a>
                 </div>
               </div>
-              <p className="py-3 text-md text-slate-500">
+              <p className="py-3 text-md text-slate-500 xl:text-xl">
                 A CMS website. I built this website to help the management for
                 their job posting, news, activities and provides a company
-                background.
+                information.
               </p>
             </div>
           </div>
@@ -106,14 +105,13 @@ export const Project = () => {
               </div>
             </div>
             <div className="px-3 xl:px-6 py-3">
-              <h2 className="font-extrabold text-2xl md:text-3xl tracking-wide font-squada text-slate-500">
+              <h2 className="font-extrabold text-2xl xl:text-3xl tracking-wide font-squada text-slate-500">
                 Eliahu Cedars Foundation Inc.
               </h2>
               <div className="flex justify-between items-center my-2">
                 <div className="text-sm xl:text-md flex gap-x-2 uppercase">
                   <span className="text-orange-400 font-bold">WORDPRESS</span>
                   <span className="text-purple-400 font-bold">WEBSITE</span>
-                  <span className="text-blue-400 font-bold">MYSQL</span>
                 </div>
                 <div className="flex items-center  gap-x-3 text-lg">
                   <a href="https://ecfi.org.ph" target="__blank">
@@ -127,7 +125,7 @@ export const Project = () => {
                   </a>
                 </div>
               </div>
-              <p className="py-3 text-md text-slate-500">
+              <p className="py-3 text-md text-slate-500 xl:text-xl">
                 Eliahu is a foundation website for scholarship student. I
                 developed this website, to help the foundation for their posting
                 activities.

@@ -8,7 +8,7 @@ export const Contact = () => {
   return (
     <Section id="contact" screen={`h-screen`}>
       <SectionTitle title={`Get in touch`} />
-      <h3 className="text-center text-lg xl:text-xl font-normal text-slate-400 py-6 md:w-3/12 mx-auto">
+      <h3 className="text-center text-lg xl:text-2xl font-normal text-slate-400 py-6 md:w-3/12 mx-auto">
         Got a question or proposal, or just want to say hello? Go ahead.
       </h3>
       <motion.a

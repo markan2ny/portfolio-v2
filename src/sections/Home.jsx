@@ -12,7 +12,7 @@ export const Home = () => {
   return (
     <Section id="home" screen={`h-screen`}>
       <div className="flex items-center justify-center flex-col h-[100%] relative">
-        <h1 className="leading-[1.2] px-3 md:leading-[1.5] font-dancing text-3xl md:text-6xl font-extrabold bg-gradient-to-r from-cyan-500 to-pink-500 bg-clip-text text-transparent">
+        <h1 className="leading-[1.2] px-3 xl:leading-[1.7] font-dancing text-3xl xl:text-7xl font-extrabold bg-gradient-to-r from-cyan-500 to-pink-500 bg-clip-text text-transparent">
           Mark Anthony Pascual
         </h1>
         <span className="font-squada text-slate-400 opacity-[.7] text-xl xl:text-3xl my-5">
@@ -25,8 +25,8 @@ export const Home = () => {
           />
         </span>
         <p className="md:max-w-md leading-[1.7] tracking-wide text-slate-500 text-center text-lg md:text-xl">
-          Graduated of Bachelor of Science in Information Technology. I design
-          and code beautifully.
+          Graduated of BS in Information Technology. I code and design
+          beautifully.
         </p>
         <Social />
 
