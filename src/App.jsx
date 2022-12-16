@@ -26,7 +26,7 @@ export const App = () => {
         <About />
         <Project />
         <Contact />
-        <Footer />
+//         <Footer />
       </main>
     </>
   );
